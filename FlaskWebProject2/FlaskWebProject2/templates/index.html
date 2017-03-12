@@ -3,15 +3,14 @@
 {% block content %}
 
 <div class="jumbotron">
-    <h1>Carwasher</h1>
+    <h1><img src="/static/content/logo.png"></h1>
 </div>
 
-    <div class="col-md-4">
-        <p><a class="btn btn-default" href="{{url_for('contact') }}">Wash Request &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <p><a class="btn btn-default" href="{{url_for('about')}}">Buy Gas &raquo;</a></p>
-    </div>
+<div class="col-mJHd-4">
+    <p><a class="btn btn-default" href="{{url_for('contact') }}">BOOK AN APPOINTMENT!</a></p>
+</div>
+<div class="col-mJHd-4">
+    <p><a class="btn btn-default" href="{{url_for('about')}}">SEE ALL SERVICES</a></p>
 </div>
 
 {% endblock %}

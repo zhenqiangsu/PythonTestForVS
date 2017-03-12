@@ -31,7 +31,7 @@ def about():
     """Renders the about page."""
     return render_template(
         'about.html',
-        title='About',
+        title='About Carwasher',
         year=datetime.now().year,
-        message='Carwasher application.'
+        message='Carwasher LLC is committed to provide better car washing for people worldwide.'
     )
